@@ -1,64 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <knjiznice>
-    <knjiznica vrsta="Gradska"> <!-- Vrsta knjižnice-->
 
-        <adresa>Ilica 20, Zagreb</adresa>
+  <knjiznica vrsta="Gradska">
+    <!-- Vrsta knjižnice-->
+    <adresa>Ilica 20, Zagreb</adresa>
+    <knjige>
+      <!-- Knjige grupirane po knjižnicama-->
+      <knjiga>
+        <naziv>Na Drini ćuprija</naziv> <!-- Siblings-->
+        <autor>Ivo Andrić</autor> <!-- Siblings-->
+        <godina>1945</godina> <!-- Siblings-->
+        <zanr>Roman</zanr> <!-- Siblings-->
+        <primjerci>5</primjerci> <!-- Siblings-->
+      </knjiga>
 
-        <knjige> <!-- Knjige grupirane po knjižnicama-->
-            <knjiga> 
-                <naziv>Na Drini ćuprija</naziv> <!-- Siblings-->
-                <autor>Ivo Andrić</autor> <!-- Siblings-->
-                <godina>1945</godina> <!-- Siblings-->
-                <zanr>Roman</zanr> <!-- Siblings-->
-                <primjerci>5</primjerci> <!-- Siblings-->
-            </knjiga>
+      <knjiga>
+        <naziv>Zločin i kazna</naziv>
+        <autor>Fjodor Dostojevski</autor>
+        <godina>1866</godina>
+        <zanr>Roman</zanr>
+        <primjerci>3</primjerci>
+      </knjiga>
 
-            <knjiga>
-                <naziv>Zločin i kazna</naziv>
-                <autor>Fjodor Dostojevski</autor>
-                <godina>1866</godina>
-                <zanr>Roman</zanr>
-                <primjerci>3</primjerci>
-            </knjiga>
+    </knjige>
 
-        </knjige>
+  </knjiznica>
 
-    </knjiznica>
+  <knjiznica vrsta="Fakultetska">
+    <adresa>Vukovarska 58, Split</adresa>
+    <knjige>
 
-    <knjiznica vrsta="Fakultetska">
+      <knjiga>
+        <naziv>C Programiranje</naziv>
+        <autor>Brian Kernighan</autor>
+        <godina>1988</godina>
+        <zanr>Informatika</zanr>
+        <primjerci>7</primjerci>
+      </knjiga>
 
-        <adresa>Vukovarska 58, Split</adresa>
+      <knjiga>
+        <naziv>Uvod u algoritme</naziv>
+        <autor>Thomas Cormen</autor>
+        <godina>2009</godina>
+        <zanr>Informatika</zanr>
+        <primjerci>4</primjerci>
+      </knjiga>
 
-        <knjige>
-            <knjiga>
-                <naziv>C Programiranje</naziv>
-                <autor>Brian Kernighan</autor>
-                <godina>1988</godina>
-                <zanr>Informatika</zanr>
-                <primjerci>7</primjerci>
-            </knjiga>
-
-            <knjiga>
-                <naziv>Uvod u algoritme</naziv>
-                <autor>Thomas Cormen</autor>
-                <godina>2009</godina>
-                <zanr>Informatika</zanr>
-                <primjerci>4</primjerci>
-            </knjiga>
-
-             <knjiga>
-                <naziv>Hamlet</naziv>
-                <autor>William Shakespeare</autor>
-                <godina>1603</godina>
-                <zanr>Drama</zanr>
-                <primjerci>6</primjerci>
-            </knjiga>
-
-        </knjige>
-
-    </knjiznica>
-
-
-
+      <knjiga>
+        <naziv>Hamlet</naziv>
+        <autor>William Shakespeare</autor>
+        <godina>1603</godina>
+        <zanr>Drama</zanr>
+        <primjerci>6</primjerci>
+      </knjiga>
+      
+    </knjige>
+  </knjiznica>
 </knjiznice>
